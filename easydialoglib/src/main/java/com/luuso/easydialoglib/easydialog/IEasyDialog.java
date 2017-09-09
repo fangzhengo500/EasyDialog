@@ -62,8 +62,6 @@ public interface IEasyDialog {
      */
     public IEasyDialog setSoftInputMode(int softInputMode);
 
-    public void dismiss();
-
     public void show(FragmentManager fm);
 
     public void show(FragmentManager fm, String tag);
